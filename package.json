@@ -1,0 +1,15 @@
+{
+  "name": "take",
+  "version": "1.0.0",
+  "description": "project for inostudio practice",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirpun Vadim",
+  "license": "ISC",
+  "dependencies": {
+    "normalize": "^0.3.1",
+    "normalize.css": "^8.0.0"
+  }
+}
