@@ -2,11 +2,13 @@ let coords = 0;
 
 $('#right').click(() => {
     let box = $('.grid');
-    // let wrapperWidth = $('.grid').css('width');
-    // coords -= parseInt(wrapperWidth);
 
-    if(coords -= 400 >= -1200) {
+    if (coords -= 400 > -1200) {
         coords -= 400;
+    }
+
+    if (parseInt($('body').css('width')) > 1200) {
+        coords = -800;
     }
 
     if (coords < -1200) {
